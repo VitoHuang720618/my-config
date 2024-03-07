@@ -15,6 +15,9 @@ set -g theme_display_user yes
 set -g theme_hide_hostname no
 set -g theme_hostname always
 
+# set tmux
+#set -Ux fish_tmux_config $HOME/.tmux.conf
+set -e TMUX
 
 # aliases
 #alias ll lli
